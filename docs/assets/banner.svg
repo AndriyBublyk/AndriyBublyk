@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-label="Banner">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0" stop-color="#120321"/>
+      <stop offset="1" stop-color="#0f0520"/>
+    </linearGradient>
+
+    
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    
+    <linearGradient id="metal" x1="0" x2="1">
+      <stop offset="0" stop-color="#E5E4E2"/>
+      <stop offset="0.5" stop-color="#D4AF37"/>
+      <stop offset="1" stop-color="#E5E4E2"/>
+    </linearGradient>
+
+    <style>
+      .title { font-family: 'Inter', Arial, sans-serif; font-weight:800; font-size:40px; fill:#F5F6F7; letter-spacing: -0.6px; }
+      .subtitle { font-family: 'Inter', Arial, sans-serif; font-size:14px; fill:#E5E4E2; opacity:0.9; }
+      .glow { fill:#7FFFD4; filter:url(#glow) }
+      
+      @keyframes pulse {
+        0% { opacity: 0.35; transform: translateZ(0) }
+        50% { opacity: 0.9; }
+        100% { opacity: 0.35; }
+      }
+      .pulse { animation: pulse 2.8s ease-in-out infinite; transform-origin: center; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="240" fill="url(#bg)"/>
+
+  
+  <g transform="translate(40,30)" opacity="0.9">
+    <path d="M0,170 L200,40 L420,170 L640,70 L860,170 L1100,50" stroke="url(#metal)" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.8"/>
+  </g>
+
+  
+  <g transform="translate(980,60)">
+    <circle cx="0" cy="40" r="36" class="glow pulse" opacity="0.45"/>
+  
+    <path d="M-6 12 L6 12 L10 90 L0 100 L-10 90 Z" fill="#E5E4E2" transform="rotate(-8)"/>
+  </g>
+
+  
+  <g transform="translate(60,150)">
+    <text class="title">Andriy Bublyk</text>
+    <text y="36" class="subtitle"> AI Engineering · Research · Analysis</text>
+  </g>
+
+
+  <g transform="translate(60,40)">
+    <rect x="0" y="0" width="200" height="2" rx="1" fill="#D4AF37" opacity="0.85"/>
+    <rect x="220" y="0" width="120" height="2" rx="1" fill="#E5E4E2" opacity="0.35"/>
+  </g>
+
+</svg>
