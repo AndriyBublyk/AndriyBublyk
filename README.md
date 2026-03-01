@@ -1,16 +1,22 @@
-## Hi there 👋
+![banner](assets/banner.svg)
 
-<!--
-**AndriyBublyk/AndriyBublyk** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Andriy Bublyk
 
-Here are some ideas to get you started:
+**`Science is a lifelong journey — may the torch of knowledge light the way`**
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+A self-taught researcher aiming to become a highly skilled specialist in the near future.
+
+---
+
+<!-- START OF PROFILE STACK, DO NOT REMOVE -->
+| **Technology** |
+| - |
+| [![Python](https://img.shields.io/static/v1?label=&message=Python&color=3776AB&logo=Python&logoColor=FFFFFF)](https://www.python.org/) |
+| [![C](https://img.shields.io/static/v1?label=&message=C%2FC%2B%2B&color=00599C&logo=C&logoColor=FFFFFF)](https://en.cppreference.com/w/) |
+| [![PyTorch](https://img.shields.io/static/v1?label=&message=PyTorch&color=EE4C2C&logo=PyTorch&logoColor=FFFFFF)](https://pytorch.org/) |
+| [![TensorFlow](https://img.shields.io/static/v1?label=&message=TensorFlow&color=FF6F00&logo=TensorFlow&logoColor=FFFFFF)](https://www.tensorflow.org/) |
+| [![FastAPI](https://img.shields.io/static/v1?label=&message=FastAPI&color=009688&logo=FastAPI&logoColor=FFFFFF)](https://fastapi.tiangolo.com/) |
+<!-- END OF PROFILE STACK, DO NOT REMOVE -->
+
+
+---
